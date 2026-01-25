@@ -37,6 +37,7 @@ def plus_minus_3(arr):
     print(f'{sum(i == 0 for i in arr)/total:.6f}')
 
 
+
 #test
 plus_minus([1, 1, 0, -1, -1])
 plus_minus_2([1, 1, 0, -1, -1])
