@@ -34,3 +34,7 @@ def plus_minus_2(arr):
 #test
 plus_minus([1, 1, 0, -1, -1])
 plus_minus_2([1, 1, 0, -1, -1])
+
+# and if we want the user to input his data
+arr = list(map(int, input().rstrip().split()))
+print(plus_minus(arr))
