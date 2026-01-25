@@ -29,6 +29,12 @@ def plus_minus_2(arr):
     print(f'{pos/len(arr):.6f}\n{neg/len(arr):.6f}\n{zeros/len(arr):.6f}\n')
     return '2'
 
+# Way3 
+def plus_minus_3(arr):
+    total = len(arr)
+    print(f'{sum(i > 0 for i in arr)/total:.6f}')
+    print(f'{sum(i < 0 for i in arr)/total:.6f}')
+    print(f'{sum(i == 0 for i in arr)/total:.6f}')
 
 
 #test
