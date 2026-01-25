@@ -22,13 +22,14 @@ def Diagonal_Difference_2(arr):
 def Diagonal_Difference_3(arr):
     right_diag = 0
     left_diag = 0
+    
     counter = 1
     for i in range(len(arr)):
         right_diag += arr[i][i]
         left_diag += arr[i][len(arr)-counter]
         counter +=1
-    Dif = right_diag - left_diag
-    return Dif
+        
+    return abs(right_diag - left_diag)
 
 
 
