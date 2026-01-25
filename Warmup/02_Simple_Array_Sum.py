@@ -6,6 +6,7 @@ def SimpleArraySum(ar):
     return sum(ar)
 
 
+
 #test
 ar = [1,2,3]
 
