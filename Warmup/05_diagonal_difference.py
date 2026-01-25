@@ -1,4 +1,4 @@
-# 5
+#5
 # Diagonal Difference
 
 # Way 1
