@@ -40,6 +40,7 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     return applesCount, orangesCount
 
     
+
 # Way3 'pythonic'
 def countApplesAndOranges(s, t, a, b, apples, oranges):
     applesCount = sum(1 for apple in apples if s <= apple + a <= t)
@@ -47,7 +48,15 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     
     return applesCount, orangesCount
 
-    
+
+
+# Way4 'Pythonic also'
+def countApplesAndOranges(s, t, a, b, apples, oranges):
+    return (
+        sum(s <= a + d <= t for d in apples),
+        sum(s <= b + d <= t for d in oranges)
+    )
+
     
     
 #test 
