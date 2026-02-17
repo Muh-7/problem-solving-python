@@ -73,4 +73,4 @@ print(countApplesAndOranges(7,11,5,15,[2,3,4],[3,2,-2]))
 # for apple in [2,3,4]:
 #     print(5 + apple)
 # for orange in [3,2,-2]:
-#     print(15 + orange)    
+#     print(15 + orange).
