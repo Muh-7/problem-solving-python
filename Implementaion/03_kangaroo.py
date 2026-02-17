@@ -53,3 +53,4 @@ print(kangaroo(0, 2, 5, 3))
 # if (x2 - x1) % (v1 - v2) == 0, then n is a positive integer, and they will meet at the same location after n jumps.
 # if (x2 - x1) % (v1 - v2) != 0, then n is not a positive integer, and they will never meet at the same location.
 # Therefore, we can check if v1 <= v2, and if so, return 'NO'. Otherwise, we can check if (x2 - x1) % (v1 - v2) == 0, and if so, return 'YES'. Otherwise, return 'NO'.
+#.
