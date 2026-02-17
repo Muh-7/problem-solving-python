@@ -61,3 +61,16 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     
 #test 
 print(countApplesAndOranges(7,11,5,15,[2,3,4],[3,2,-2]))
+
+# How we can think about it:
+# print(5 + 2)
+# print(5 + 3)
+# print(5 + 4)
+# print(15 + 3)
+# print(15 + 2)
+# print(15 + -2)    
+# We can also think about it as:
+# for apple in [2,3,4]:
+#     print(5 + apple)
+# for orange in [3,2,-2]:
+#     print(15 + orange)    
