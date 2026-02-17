@@ -20,3 +20,10 @@ def getTotalX(a, b):
 
 #test
 print(getTotalX([2, 4], [16, 32, 96]))
+
+# How we can think about it:
+# print(max([2, 4]))
+# print(min([16, 32, 96]))
+# print(max([2, 4]), min([16, 32, 96]))
+# for i in range(4, 17):
+#     print(i)      
