@@ -48,3 +48,4 @@ print(breakingRecords([10, 5, 20, 20, 45, 2, 25, 1]))
 # min_score = 10
 # score = 5
 # score < min_score => min_score = 5, min_count = 1 
+#.
