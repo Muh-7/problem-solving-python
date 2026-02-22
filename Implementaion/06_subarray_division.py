@@ -34,3 +34,14 @@ def birthday(s, d, m):
 
 #test
 print(birthday([1, 2, 1, 3, 2], 3, 2))
+
+
+# How we can think about it:
+# s = [1, 2, 1, 3, 2]
+# d = 3
+# m = 2 
+# i = 0 => sum(s[0:2]) = 3 => count = 1
+# i = 1 => sum(s[1:3]) = 4 => count = 1
+# i = 2 => sum(s[2:4]) = 4 => count = 1
+# i = 3 => sum(s[3:5]) = 5 => count = 1
+# i = 4 => sum(s[4:6]) => out of range => stop
