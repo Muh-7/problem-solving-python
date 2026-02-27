@@ -12,13 +12,11 @@ def birthday(s, d, m):
 def birthday(s, d, m):
     count = 0
     
-    # نحسب أول نافذة مرة واحدة
     window_sum = sum(s[:m])
     
     if window_sum == d:
         count += 1
-
-    # نحرك النافذة
+    
     for i in range(m, len(s)):
         window_sum = window_sum - s[i-m] + s[i]
         
