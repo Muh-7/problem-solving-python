@@ -22,13 +22,28 @@ def migratoryBirds(arr):
 
 
 
+# Way2 
+def migratoryBirds(arr):
+    # Write your code here
+    l = [0] * len(arr)
+    
+    for i in range(len(arr)):
+        l[arr[i]] +=1
+    
+    return l.index(max(l))
 
-s = {}
-s['a'] = 1
-s['b'] = 2
-s['c'] = 3
-for i in range(10):
-    if i == 5:
-        s['a'] += 1 
-        
-print(s.keys())
+
+# Way3 'pythonic'
+from collections import Counter
+
+def migratoryBirds(arr):
+    counts = Counter(arr)
+    return min(counts, key=lambda bird: (-counts[bird], bird))
+
+
+
+# test
+print(migratoryBirds([1, 1, 2, 2, 3, 3, 4, 4, 5, 5])) # Output: 1
+
+
+
