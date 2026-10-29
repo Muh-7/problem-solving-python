@@ -5,7 +5,7 @@
 # If more than 1 type has been spotted that maximum amount, return the smallest of their ids.
 # https://www.hackerrank.com/challenges/migratory-birds/problem
 
-
+# Way1
 def migratoryBirds(arr):
     # Write your code here
     bird_count = {}
@@ -24,7 +24,7 @@ def migratoryBirds(arr):
 
 # Way2 
 def migratoryBirds(arr):
-    # Write your code here
+
     l = [0] * len(arr)
     
     for i in range(len(arr)):
